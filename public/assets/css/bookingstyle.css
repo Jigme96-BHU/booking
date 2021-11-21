@@ -1,0 +1,47 @@
+.modal {
+						  position: fixed;
+						  left: 0;
+						  top: 0;
+						  width: 100%;
+						  height: 100%;
+						  background-color: rgba(0, 0, 0, 0.6);
+						  opacity: .5;
+						  visibility: hidden;
+						  
+						}
+						.modal-box {
+						  position: absolute;
+						  top: 50%;
+						  left: 50%;
+						  transform: translate(-50%, -50%);
+						  background-color: #B4DFE0;
+						  padding: 1rem 1.5rem;
+						  width: 24rem;
+						  border-radius: 0.5rem;
+						  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+						}
+						
+						.show-modal {
+						  opacity: 1;
+						  visibility: visible;
+						  transform: scale(1.0);
+						}
+						.btn-red {
+							background-color: #DD5742;
+						}
+						table {
+							margin: 5% auto;
+							border: 2px solid black;
+						}
+						td, th{
+							padding: 5px;
+							border: 2px solid black;
+
+						}
+						td.pointer {
+					        cursor: pointer;
+					    }
+					    td:hover {
+					        background-color:#94F580;
+					      
+						}
